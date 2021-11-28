@@ -1,0 +1,265 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "time_sheduling",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+        "@babel/core": "^7.15.8",
+        "@emotion/react": "^11.5.0",
+        "@emotion/styled": "^11.3.0",
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/react-fontawesome": "^0.1.15",
+        "@mui/icons-material": "5.0.4",
+        "@mui/material": "^5.0.4",
+        "@mui/styled-engine-sc": "^5.0.3",
+        "@popperjs/core": "^2.10.2",
+        "@testing-library/dom": "^8.10.1",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "bootstrap": "5.1.1",
+        "jquery": "^3.6.0",
+        "react": "^17.0.2",
+        "react-bootstrap": "^2.0.0-rc.1",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^5.3.0",
+        "react-scripts": "4.0.3",
+        "styled-components": "^5.3.1",
+        "web-vitals": "^1.1.2"
+      },
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      },
+      "eslintConfig": {
+        "extends": [
+          "react-app",
+          "react-app/jest"
+        ]
+      },
+      "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+      }
+    },
+    "prefix": "/home/anes/Project/time_sheduling"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/home/anes/.pnpm-store/v3",
+    "virtualStoreDir": "/home/anes/Project/time_sheduling/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/anes/Project/time_sheduling",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_SPEC_NOT_SUPPORTED_BY_ANY_RESOLVER",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "@typescript isn't supported by any available resolver.",
+      "code": "ERR_PNPM_SPEC_NOT_SUPPORTED_BY_ANY_RESOLVER",
+      "stack": "pnpm: @typescript isn't supported by any available resolver.\n    at Object.resolve (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.18.0/node_modules/pnpm/dist/pnpm.cjs:85076:17)\n    at async run (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.18.0/node_modules/pnpm/dist/pnpm.cjs:70888:23)"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/core/7.15.8",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/core",
+      "rawSpec": "^7.15.8"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@emotion/react/11.5.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@emotion/react",
+      "rawSpec": "^11.5.0"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@emotion/styled/11.3.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@emotion/styled",
+      "rawSpec": "^11.3.0"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@fortawesome/fontawesome-svg-core/1.2.36",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@fortawesome/fontawesome-svg-core",
+      "rawSpec": "^1.2.36"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@fortawesome/free-solid-svg-icons/5.15.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@fortawesome/free-solid-svg-icons",
+      "rawSpec": "^5.15.4"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@fortawesome/react-fontawesome/0.1.15",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@fortawesome/react-fontawesome",
+      "rawSpec": "^0.1.15"
+    }
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@mui/icons-material/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@mui/icons-material",
+      "rawSpec": "5.0.4"
+    }
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@mui/material/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@mui/material",
+      "rawSpec": "^5.0.4"
+    }
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@mui/styled-engine-sc/5.0.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@mui/styled-engine-sc",
+      "rawSpec": "^5.0.3"
+    }
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@popperjs/core/2.10.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@popperjs/core",
+      "rawSpec": "^2.10.2"
+    }
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/dom/8.10.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/dom",
+      "rawSpec": "^8.10.1"
+    }
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/jest-dom/5.14.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/jest-dom",
+      "rawSpec": "^5.14.1"
+    }
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/react/11.2.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/react",
+      "rawSpec": "^11.2.7"
+    }
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/user-event/12.8.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/user-event",
+      "rawSpec": "^12.8.3"
+    }
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/bootstrap/5.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "bootstrap",
+      "rawSpec": "5.1.1"
+    }
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/jquery/3.6.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "jquery",
+      "rawSpec": "^3.6.0"
+    }
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react/17.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react",
+      "rawSpec": "^17.0.2"
+    }
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-bootstrap/2.0.0-rc.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-bootstrap",
+      "rawSpec": "^2.0.0-rc.1"
+    }
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-dom/17.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-dom",
+      "rawSpec": "^17.0.2"
+    }
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-router-dom/5.3.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-router-dom",
+      "rawSpec": "^5.3.0"
+    }
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-scripts/4.0.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-scripts",
+      "rawSpec": "4.0.3"
+    }
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/styled-components/5.3.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "styled-components",
+      "rawSpec": "^5.3.1"
+    }
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/web-vitals/1.1.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "web-vitals",
+      "rawSpec": "^1.1.2"
+    }
+  }
+}
