@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: node-sass",
+      "code": "ENOENT",
+      "stack": "Error: not found: node-sass\n    at getNotFoundError (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:41555:51)\n    at Function.whichSync [as sync] (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:41632:13)\n    at getCommandAbsolutePathSync (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:43197:44)\n    at default_1 (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:43206:32)\n    at /usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:178047:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/home/anes/Project/time-scheduling",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: node-sass",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: node-sass\n    at getNotFoundError (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:41555:51)\n    at Function.whichSync [as sync] (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:41632:13)\n    at getCommandAbsolutePathSync (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:43197:44)\n    at default_1 (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:43206:32)\n    at /usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.30.1/node_modules/pnpm/dist/pnpm.cjs:178047:39"
+    }
+  }
+}

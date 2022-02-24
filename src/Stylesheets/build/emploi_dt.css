@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'segoe print', SansSerif;
+}
+body{
+    background: #f2f2f2;
+}
+/****NAVBAR*****/
+.navbar{
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    background: rgba(0 , 0, 0, 0.75)!important;
+}
+
+.navbar-nav li{
+    padding-right: 0.9rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#ffc107;  /* hover-warning  : #ba8b00*/
+}
+/************ SEC-01*/
+#sec-1{
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+#sec-1_container-1{
+    margin-top: 20px;
+    box-shadow: 0px 1px 10px silver;
+    border-radius: 10px;
+}
+#sec-1_container-2{
+    width: 100%;
+    border-radius: 1.5rem;
+    box-shadow: 0px 1px 10px silver;
+}
+#sec-1_container-2 #emp-tab{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: .8rem;
+}
+#sec-1_container-2 #emp-tab tr {
+    line-height: 4rem ;
+}
+div#sec-1_container-2 table#emp-tab  tbody td.td-cell{
+    border: none;
+    border-right: 1px solid silver;
+    /*vertical-align: ;**/
+}
+div#sec-1_container-2 table#emp-tab  tbody td.td-cell abbr{
+    text-decoration: none;
+}
+div#sec-1_container-2 table#emp-tab  tbody tr:nth-child(even),
+div#sec-1_container-2 table#emp-tab thead > tr:nth-child(2){
+    background: rgba(245, 244, 188, 0.979);
+}
+
+
+/************ SEC-02*/
+#sec-2{
+    width: 100%;
+}
+#sec-2_container-1{
+    margin-top: 6rem;
+    width: 100%;
+}
+
+section#sec-2 > div#sec-2_container-1 > table#day_tab{
+    width: 100%;
+    line-height: 2.9rem;
+    box-shadow: 0px 1px 8px silver;
+    border-radius: 10px;
+}
+section#sec-2 > div#sec-2_container-1 > table#day_tab > thead > tr:nth-child(1) > th{
+    font-size: 1.7rem;
+}

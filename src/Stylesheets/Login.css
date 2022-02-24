@@ -1,10 +1,23 @@
 .App {
   text-align: center;
 }
-
+#outlined-adornment-password{
+  color: white;
+  border-color: #61dafb;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    top: 34px;
+    left: 5%;
+    -webkit-transition: opacity 0.3s, visibility;
+    -moz-transition: opacity 0.3s, visibility;
+    transition: opacity 0.3s, visibility;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,6 +30,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   flex-direction: column;
   align-items: center;
   justify-content: center;
