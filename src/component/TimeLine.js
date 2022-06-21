@@ -1,20 +1,34 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import Sidebar from './Sidebar'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import '../Stylesheets/build/Sidebar.css'
 import '../Stylesheets/build/TimeLine.css'
-import  ContainerMui from '@mui/material/Container';
-import {Container,Row,Col,Breadcrumb,Table} from 'react-bootstrap'
+import ContainerMui from '@mui/material/Container';
+import { Container, Row, Col, Breadcrumb, Table } from 'react-bootstrap'
 
-const ShedulingTable =(props)=>{
-    return  <ContainerMui maxWidth='lg' >
+const getData = (jsonFile) => {
+    fetch(jsonFile
+        , {
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        }
+    )
+        .then(function (response) {
+            console.log(response)
+            return response.json();
+        })
+}
+const ShedulingTable = (props) => {
+    return <ContainerMui maxWidth='lg' >
         <Box>
-        <h1 className='tableTitle'>{props.Title}</h1>
+            <h1 className='tableTitle'>{props.Title}</h1>
             <Paper
                 elevation={6}
                 className='my-4 Paper'
-                >
+            >
                 <Container>
                     <Row>
                         <Col>
@@ -41,17 +55,20 @@ const ShedulingTable =(props)=>{
                 </Container>
             </Paper>
         </Box>
-    </ContainerMui>                
+    </ContainerMui>
 }
-const Main =()=>{
-    return(
+const Main = () => {
+    useEffect(() => {
+        getData('http://localhost:3000/data/ProgramingSkills.json')
+    }, [])
+    return (
         <Container fluid >
             <Breadcrumb>
                 <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                 <Breadcrumb.Item active>Timeline</Breadcrumb.Item>
             </Breadcrumb>
-            <ShedulingTable Title='Programing Skills'> 
-            <tbody>
+            <ShedulingTable Title='Programing Skills'>
+                {/* <tbody>
                     <tr>
                         <th>Saturday</th>
                         <td></td>
@@ -97,8 +114,8 @@ const Main =()=>{
                         <td>Git</td>
                         <td>KaliTools</td>
                         <td></td>
-                    </tr>   
-                </tbody>
+                    </tr>
+                </tbody> */}
             </ShedulingTable>
             <ShedulingTable Title='University' >
                 <tbody>
@@ -150,11 +167,11 @@ const Main =()=>{
         </Container>
     )
 }
-export default function TimeLine(){
-    return <> 
-            <Sidebar />
-            <div className="main_container bg-light">
-                <Main />
-            </div>
-        </>
+export default function TimeLine() {
+    return <>
+        <Sidebar />
+        <div className="main_container bg-light">
+            <Main />
+        </div>
+    </>
 } 

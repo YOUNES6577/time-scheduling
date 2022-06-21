@@ -14,8 +14,8 @@ app.use((req, res, next) => {
 });
 
 app.post('/login/redirect',ensureToken,(req,res)=>{
-    res.redirect(200,'/')
-    console.dir({status:200,redirect:'/'})
+    res.redirect(200,'/timeline')
+    console.dir({status:200,redirect:'/timeline'})
 })
 app.post('/login/authentication',ensureToken,(req,res)=>{
     res.status(200).json({
