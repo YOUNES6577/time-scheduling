@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffafd6cd.css",
-    "main.js": "/static/js/main.a2cda970.js",
-    "static/js/311.a70a3de0.chunk.js": "/static/js/311.a70a3de0.chunk.js",
-    "static/media/img-1.jpg": "/static/media/img-1.591fe73b9278bfeea4ad.jpg",
-    "static/media/img-2.jpg": "/static/media/img-2.6c7afda433b9aa728dd6.jpg",
-    "static/media/img-3.jpg": "/static/media/img-3.c4297b536640e0c65d8c.jpg",
-    "static/media/favicon.ico": "/static/media/favicon.4c7091186a60dc39df86.ico",
-    "static/media/logomark.svg": "/static/media/logomark.7c534458f75e8436d19089f800efa42e.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "static/media/cd-arrow.svg": "/static/media/cd-arrow.40c339bd379e822aa70d.svg",
-    "main.ffafd6cd.css.map": "/static/css/main.ffafd6cd.css.map",
-    "main.a2cda970.js.map": "/static/js/main.a2cda970.js.map",
-    "311.a70a3de0.chunk.js.map": "/static/js/311.a70a3de0.chunk.js.map"
+    "main.css": "/time_sheduiling/static/css/main.6e48accb.css",
+    "main.js": "/time_sheduiling/static/js/main.24b6f277.js",
+    "static/js/311.a70a3de0.chunk.js": "/time_sheduiling/static/js/311.a70a3de0.chunk.js",
+    "static/media/img-1.jpg": "/time_sheduiling/static/media/img-1.591fe73b9278bfeea4ad.jpg",
+    "static/media/img-2.jpg": "/time_sheduiling/static/media/img-2.6c7afda433b9aa728dd6.jpg",
+    "static/media/img-3.jpg": "/time_sheduiling/static/media/img-3.c4297b536640e0c65d8c.jpg",
+    "static/media/favicon.ico": "/time_sheduiling/static/media/favicon.4c7091186a60dc39df86.ico",
+    "static/media/logomark.svg": "/time_sheduiling/static/media/logomark.7c534458f75e8436d19089f800efa42e.svg",
+    "static/media/logo.svg": "/time_sheduiling/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/time_sheduiling/index.html",
+    "static/media/cd-arrow.svg": "/time_sheduiling/static/media/cd-arrow.40c339bd379e822aa70d.svg",
+    "main.6e48accb.css.map": "/time_sheduiling/static/css/main.6e48accb.css.map",
+    "main.24b6f277.js.map": "/time_sheduiling/static/js/main.24b6f277.js.map",
+    "311.a70a3de0.chunk.js.map": "/time_sheduiling/static/js/311.a70a3de0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffafd6cd.css",
-    "static/js/main.a2cda970.js"
+    "static/css/main.6e48accb.css",
+    "static/js/main.24b6f277.js"
   ]
 }
