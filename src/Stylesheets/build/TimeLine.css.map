@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAI;EACA,gBAAgB,EAAE,IAAI",
-"sources": ["../Sass/TimeLine.sass"],
-"names": [],
-"file": "TimeLine.css"
-}

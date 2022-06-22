@@ -1,32 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap")
-
-$header-height:5rem
-$nav-width: 185px 
-$first-color:#4723D9
-$first-color-light:#AFA5D9
+$header-height: 5rem
+$nav-width: 185px
+$first-color: #4723D9
+$first-color-light: #AFA5D9
 $body-font: 'Nunito', sans-serif system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
-$normal-font-size:1rem
-$z-fixed:100
+$normal-font-size: 1rem
+$z-fixed: 100
 $white-color: #F7F6FB
 
-$text-gray:#C2C7D0
-$text-danger:#D72025
-$dark-gray:#363b3f  
-$yellow:#ffc107
+$text-gray: #C2C7D0
+$text-danger: #D72025
+$dark-gray: #363b3f
+$yellow: #ffc107
 $blue: #123d6c
 $dark-blue: #2A2B38
 $purple: #4723D9
 $purple-light: #afa5d9
 $white-color: #F7F6FB
-$default-shadow:2px 0 2px rgba(0,0,0,0.35)
-$box-shadow-success:0 0 0 .25rem rgba(25, 135, 84, 0.25)
-$box-shadow-primary:0 0 0 .25rem rgba(13, 110, 253, 0.25)
-$box-shadow-danger:0 0 0 .25rem rgba(215, 32, 37,.25)
+$default-shadow: 2px 0 2px rgba(0,0,0,0.35)
+$box-shadow-success: 0 0 0 .25rem rgba(25, 135, 84, 0.25)
+$box-shadow-primary: 0 0 0 .25rem rgba(13, 110, 253, 0.25)
+$box-shadow-danger: 0 0 0 .25rem rgba(215, 32, 37,.25)
 $body-font: 'Nunito', sans-serif
 $normal-font-size: 1rem
 $header-height: 3rem
 $z-fixed: 100
-$trans-default:all 0.4s ease-in-out
+$trans-default: all 0.4s ease-in-out
 
 *,::before,::after
     box-sizing: border-box
@@ -37,9 +36,9 @@ body
     font-family: $body-font
     font-size: $normal-font-size
     transition: .5s
-a 
+a
     text-decoration: none
-.header 
+.header
     width: 100%
     height: $header-height
     position: fixed
@@ -84,7 +83,7 @@ a
         flex-direction: row
         justify-content: space-between
         .nav_logo,
-        .nav_link 
+        .nav_link
             display: grid
             grid-template-columns: max-content max-content
             align-items: center
@@ -100,29 +99,29 @@ a
             &::-webkit-scrollbar
                 width: .25em
                 border-radius: 50%
-            &::-webkit-scrollbar-track 
+            &::-webkit-scrollbar-track
                 box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3)
                 border-radius: 50%
-            &::-webkit-scrollbar-thumb 
+            &::-webkit-scrollbar-thumb
                 background-color: $dark-gray
                 outline: 1px solid $dark-gray
                 border-radius: 50%
-        .nav_logo 
+        .nav_logo
             margin: 0 auto
             margin-bottom: 2rem
-            .nav_logo-icon 
+            .nav_logo-icon
                 font-size: 1.25rem
                 color: $white-color
-        .nav_logo-name 
+        .nav_logo-name
             color: $white-color
             font-weight: 700
-        .nav_link 
+        .nav_link
             position: relative
             color: $text-gray
             margin-bottom: 1.5rem
             transition: .3s
             font-weight: 600
-            &:hover 
+            &:hover
                 color: $yellow
             &.active
                 color: $yellow
@@ -135,11 +134,11 @@ a
                     background-color: $yellow
                 .nav_icon
                     color: $yellow
-        .nav_icon 
+        .nav_icon
             margin: 0 auto
             padding-left: 5px
             font-size: 1.5rem
-    &.show 
+    &.show
         left: 0
 .body-pd
     padding-left: calc(#{$nav-width} + 1rem)
@@ -162,9 +161,9 @@ a
         tbody
             tr
                 &:first-of-type
-                    border-top: 1px solid #000 
+                    border-top: 1px solid #000
                 &:last-of-type
-                    border-bottom: 1px solid #000 
+                    border-bottom: 1px solid #000
                 td
                     border-right: 1px solid #000
                     &:last-of-type
@@ -176,7 +175,7 @@ a
                     border-bottom-left-radius: 10px
                     border-right: 1px solid #000
                     width: 100px
-                    
+
         th
             font-weight: 700
             font-style: italic
@@ -189,17 +188,17 @@ a
                 font-size: 2rem
                 letter-spacing: 1.5px
     .Paper
-        padding: 15px 
+        padding: 15px
         border-radius: 10px
-    
-@media screen and (min-width: 768px) 
-    body 
+
+@media screen and (max-width: 768px)
+    body
         margin: calc(#{$header-height} + 1rem) 0 0 0
         padding-left: calc(#{$nav-width} + 2rem)
-    .header 
+    .header
         height: calc(#{$header-height} + 2rem)
         padding: 0 2rem 0 calc(#{$nav-width} + 2rem)
-    
+
     .header_img
         width: 40px
         height: 40px

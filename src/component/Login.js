@@ -11,7 +11,7 @@ import PropTypes from 'prop-types';
 import { useNavigate } from "react-router-dom";
 
 
-const serverIp = 'http://localhost:3001'
+const serverIp = 'http://129.45.38.237:3001'
 const Icon = () => <a className="logo" href='/'><img alt='logo' width='125px' height='125px' src={icon} /></a>;
 
 async function loginUser(credentials) {

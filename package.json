@@ -1,7 +1,8 @@
 {
   "name": "time-scheduling",
   "version": "0.1.0",
-  "homepage": "https://YOUNES6577.github.io/time_sheduiling",
+  "homepage": ".",
+  "proxy": "http://localhost:3000",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.17.5",
@@ -43,6 +44,7 @@
     "react-router": "^6.2.1",
     "react-router-dom": "6",
     "react-scripts": "5.0.0",
+    "serve": "^13.0.2",
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4",
     "webpack": "^5.69.1",
@@ -51,8 +53,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy":"pnpm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -82,5 +84,4 @@
     "npm": "6.x",
     "pnpm": "6.x"
   }
-
 }
