@@ -32,7 +32,8 @@ app.post('/login', (req, res) => {
     pool.getConnection(function (err, connection) {
         if (err) throw err; // not connected!
         console.log("Pooled connection established.");
-        connection.query("SELECT  tsh.Login(?,?) as result", ['Anes', password], (error, result, fields) => {
+        // connection.query("SELECT  tsh.Login(?,?) as result", ['Anes', password], (error, result, fields) => {
+            connection.query("SELECT EXISTS(SELECT * from AppLogin where( User=? and Pass=?)) as result ", ['Anes', password], (error, result, fields) => {
             if (error) throw error;
             if (result[0].result) {
                 console.log(" Login Success . {" + event.toLocaleTimeString('en-US') + "}")
