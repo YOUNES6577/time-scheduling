@@ -1,6 +1,7 @@
 {
   "name": "time-scheduling",
   "version": "0.1.0",
+  "homepage": "https://YOUNES6577.github.io/time_sheduiling",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.17.5",
