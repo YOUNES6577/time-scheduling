@@ -59,7 +59,7 @@ const ShedulingTable = (props) => {
 }
 const Main = () => {
     useEffect(() => {
-        getData('http://localhost:3000/data/ProgramingSkills.json')
+        getData('../data/ProgramingSkills.json')
     }, [])
     return (
         <Container fluid >

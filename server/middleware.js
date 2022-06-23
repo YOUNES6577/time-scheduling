@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-
 const JWT_SECRET = "jwt_secret_password";
 
 module.exports = (req, res, next) => {

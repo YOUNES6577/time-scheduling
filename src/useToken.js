@@ -15,6 +15,7 @@ export  default function useToken() {
         localStorage.removeItem('access-token');
         localStorage.removeItem('access-token-expiration');
         setToken(null)
+        console.dir(localStorage)
         return true
     }
     return {

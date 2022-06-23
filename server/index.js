@@ -57,6 +57,7 @@ app.post('/login', (req, res) => {
         console.log('Connection %d acquired', connection.threadId);
     });
     setTimeout(() => {
+        console.log("Logged"+loggedIn)
         if (loggedIn) {
             let token_payload = {
                 password: password
@@ -71,8 +72,8 @@ app.post('/login', (req, res) => {
                 token: token,
                 expiresIn: Date.now() + 60 * 60 * 1000
             })
-        } else return res.status(404).json("Authentication failed. admin not found.");
-    }, 100)
+        } else return res.status(404).json("Authentication failed. user not found.");
+    }, 5000)
 });
 
 const port = process.env.PORT || 3001

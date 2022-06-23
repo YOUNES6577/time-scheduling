@@ -56,9 +56,10 @@ export default function Login(props) {
     event.preventDefault();
   };
   const handleSubmit = async e => {
-    e.preventDefault();
+    // e.preventDefault();
     const Token = await loginUser(password);
     var time = new Date(Date.now())
+    console.dir(Token)
     if (!Token.token) {
       console.error(" Login Failed ! . {" + time.toLocaleTimeString('en-US') + "}")
       $('.Login-error').removeClass('d-none').text('Wrong Password !').fadeIn(1000)
